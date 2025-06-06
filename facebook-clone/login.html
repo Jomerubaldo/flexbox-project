@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Login</title>
+</head>
+
+<body>
+  <!--to apply the items-center need input it in first div declared-->
+  <div class="bg-[#CECECE] w-screen h-screen flex justify-center items-center">
+    <div class="bg-[#fff] w-[396px] h-[456px] rounded-2xl">
+      <form class="p-8 flex flex-col space-y-4">
+        <input type="text" name="email" placeholder="Email or phone number" required
+          class="rounded-md border  border-gray-300 backdrop-blur-sm px-[14px] py-[16px] w-[330px] text-[17px]">
+        <input type="password" name="password" placeholder="Password" required
+          class="border border-gray-300 backdrop-blur-sm  rounded-md px-[14px] py-[16px] w-[330px] text-[17px]">
+        <button tytpe="submit" class="border rounded-md bg-[#0866ff] p-[16px] font-bold text-[#fff] text-[20px]"><a
+            href="#">Log in</a></button>
+        <a href="#" class="text-center text-[#0866ff] font-medium">Forgot password?</a>
+        <hr>
+        <button type="button"
+          class="relative left-15 bg-[#42b72a] text-[17px] p-[16px] w-50 rounded-md font-bold text-[#fff]"><a
+            href="#">Create new account</a></button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
